@@ -1,0 +1,13 @@
+# application.yml
+
+server:
+  port: 8082 # or your preferred port
+
+spring:
+  application:
+    name: eureka-client-c
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
